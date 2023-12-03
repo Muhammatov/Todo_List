@@ -1,0 +1,24 @@
+@media screen and (max-width: 630px) {
+     
+     .Todo_top{
+          padding: 20px;
+          display: flex;
+          padding-bottom: 30px;
+     }
+     .Todo_reg{
+          display: flex;
+          gap: 20px;
+
+          .tugma{
+               max-width: 300px !important;
+               width: 100%;
+               height: 40px;
+               margin: auto;
+               background-color: aliceblue;
+          }
+     }
+     .form{
+          width: 100% !important;
+          height: 50px;
+     }
+}

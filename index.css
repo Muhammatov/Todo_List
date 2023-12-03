@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.Todo {
+     max-width: 900px;
+     width: 100%;
+     height: auto;
+     /* border: 1px solid orange; */
+     margin: auto;
+     margin-top: 80px;
+     border-radius: 10px;
+
+     /* Todo top start */
+     .Todo_top {
+          width: 100%;
+          height: 250px;
+          background: rgb(2, 0, 36);
+          background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(8, 138, 187, 1) 81%, rgb(38, 136, 212) 92%, rgb(63, 84, 205) 100%, rgba(9, 9, 121, 1) 100%);
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 15px;
+
+          .Todo_text{
+               max-width: 700px;
+               width: 100%;
+               height: 50px;
+               /* border: 1px solid green; */
+               display: flex;
+               line-height: 50px;
+               align-items: center;
+               justify-content: center;
+
+               .todos{
+                    text-transform: uppercase;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 40px;
+                    font-weight: 900;
+                    color: #fff;
+               }
+          }
+          .Todo_reg{
+               max-width: 700px;
+               width: 100%;
+               height: 40px;
+               /* border: 1px solid red; */
+               display: flex;
+               justify-content: space-between;
+               flex-wrap: wrap;
+
+               .form{
+                    width: 550px;
+               }
+               .tugma{
+                    max-width: 90px;
+                    width: 100%;
+                    background-color: #F8F3F5;
+                    border: none;
+                    border-radius: 8px;
+               }
+          }
+     }
+     /* Todo top Finis */
+     /* TOdo bottom Start */
+     .Todo_bottom{
+          width: 100%;
+          height: auto;
+          /* border: 1px solid orange; */
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          padding: 20px;
+          justify-content: center;
+          align-items: center;
+          /* justify-content: ; */
+          background-color: #fff;
+
+          .Todo_info{
+               width: 98%;
+               height: 50px;
+               display: flex;
+               text-align: center;
+               /* align-items: center; */
+               justify-content: center;
+               .lists{
+                    font-size: 30px;
+                    line-height: 50px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    text-transform: uppercase;
+                    font-weight: 900;
+               }
+          }
+          .result{
+               width: 98%;
+               height: auto;
+               display: flex;
+               flex-direction: column;
+               justify-content: start;
+               align-items: start;
+               
+               gap: 15px;
+
+               .result_item{
+                    width: 100%;
+                    height: 50px;
+                    background-color: #F8F3F5;
+               }
+          }
+     }
+     /* TOdo bottom Finish */
+}
